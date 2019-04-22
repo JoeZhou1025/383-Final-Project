@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Final Project</title><!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <!-- jQuery library -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><!-- Latest compiled JavaScript -->
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script><!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="scripts/app.js"></script>
+	
+</head>
+
+<body>
+    <h1>Final Project</h1>
+    <div class='container-fluid' id="first">
+        <h2>Login</h2>
+        <form id="login" method='post' onsubmit="return false;" class="form-incline">
+            <label for="user">User</label>
+            <input name="user" type="text" id="u"/>
+            <label for="password">Password</label>
+            <input name="password" type="password" id="p"/>
+            <input type="submit" name="submit" value="Submit" />
+        </form>
+    </div>
+
+    <div class="container" id="second" style = "display: None;">
+        <h2>Record An Item</h2>
+        <div id="button">
+	</div>
+        <table class="table table-condensed table-striped">
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Cnt</th>
+                </tr>
+            </thead>
+            <tbody id="count"></tbody>
+        </table>
+
+        <table class="table table-condensed table-striped">
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>timestamp</th>
+                </tr>
+            </thead>
+            <tbody id="time"></tbody>
+        </table>
+    </div>
+</body>
+</html>
