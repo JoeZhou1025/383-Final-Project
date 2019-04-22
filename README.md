@@ -6,6 +6,7 @@ Create a single page web application that monitors a person's consumption of a s
 
 The application flow shall be as follows:
 1.	User shall connect to the application/index.html.
+
 a.	ALL html code shall be in this file
 b.	all javascript shall be in a separate file.
 c.	All css shall also be in a separate file
